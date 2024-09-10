@@ -5,7 +5,16 @@ import java.util.Scanner;
 public class FibonacciSequence {
    
    public static int fibonacci(int n) {
-      /* Type your code here. */       
+    int prevInt = 0;
+    int currentInt = 1;
+    
+    if (n < 0) {
+        return -1;
+    }
+    if (n <= 1) {
+        return n;
+    }
+    return n;    
    }
    
    public static void main(String[] args) {
@@ -14,5 +23,6 @@ public class FibonacciSequence {
       
       startNum = scnr.nextInt();
       System.out.println("fibonacci(" + startNum + ") is " + fibonacci(startNum));
+      scnr.close();
    }
 }
