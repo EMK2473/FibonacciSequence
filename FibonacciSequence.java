@@ -14,7 +14,13 @@ public class FibonacciSequence {
     if (n <= 1) {
         return n;
     }
-    return n;    
+
+    for(int i = 2; i <= n; ++i) {
+        int fib = prevInt + currentInt;
+        prevInt = currentInt;
+        currentInt = fib;    
+    }
+    return currentInt;    
    }
    
    public static void main(String[] args) {
