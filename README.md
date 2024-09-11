@@ -19,7 +19,7 @@ Ensure you have Java Development Kit (JDK) installed on your system. You can dow
 
 - Clone or download the repository: 
 ```Java 
-- git clone https://github.com/your-username/FibonacciSequence.git 
+- git clone https://github.com/EMK2473/FibonacciSequence.git 
 ```
 
 - Navigate to the project directory: 
